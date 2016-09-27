@@ -19,9 +19,9 @@ public class Window extends JWindow implements ActionListener
 	
 	private static final long serialVersionUID = 1L;
 	
-	public static Window main()
+	public static void main(String[] args)
 	{
-		return new Window();
+		Window window = new Window();
 	}
 	
 	private JPanel 				container 	= new JPanel();
